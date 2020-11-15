@@ -43,4 +43,4 @@ update Address_Book set  Book_Name ='Home' where FirstName in ('Leena','Karishma
 select * from Address_Book;
 --Count contacts by contact type
 select Contact_Type, COUNT(Contact_Type) from Address_Book
-group by Contact_Type
+group by Contact_Type;
